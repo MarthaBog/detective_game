@@ -6,9 +6,9 @@
 
 # Main Objective
 
-There has been a Murder in the city. I must to find who is the Murderer, using Entity Relationship Diagram and SQL commands.
+There has been a Murder in the city. And I  will take the role of a detective, using SQL to uncover clues hidden across multiple tables. It is a fun and realistic simulation of how data investigation works in real life—step by step, query by query.
 
-Here is my ERD:
+Here is my Entity Relationship Diagram:
 
 ![ERD](images/erd_database.jpg)
 
