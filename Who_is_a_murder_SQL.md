@@ -1,8 +1,19 @@
-# Website of the game:
+### Website of the game:
 
 <https://mystery.knightlab.com/walkthrough.html>
 
-## I have 9 cards of information
+# Main Objective
+
+There has been a Murder in city. And I must to find who is a Murderer, using Entity Relationship Diagram and SQL commands.
+
+Here is my ERD:
+
+![ERD](images/erd_database.jpg)
+
+
+## What do I have at the beginning?
+
+I have 9 cards of information
 
 - interview
 - get_fit_now_check_in
@@ -14,7 +25,9 @@
 - crime_scene_report
 - solution
 
-To see what kind of crime we have:
+## First step
+
+To see what kind of crime we have, I'll use next command:
 
 ```sql
 SELECT DISTINCT type 
@@ -32,7 +45,7 @@ FROM crime_scene_report;
 - smuggling
 - blackmail
 
-## First witness
+## Now I am going to find the First witness
 
 ### Search using interview transcription
 
