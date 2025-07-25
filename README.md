@@ -10,7 +10,7 @@ There has been a Murder in the city. And I  will take the role of a detective, u
 
 Here is my Entity Relationship Diagram:
 
-![ERD](images/erd_database.jpg)
+![ERD](images/erd.jpg)
 
 
 ## What do I have at the beginning?
