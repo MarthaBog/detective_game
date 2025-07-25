@@ -6,7 +6,7 @@
 
 # Main Objective
 
-There has been a Murder in city. And I must to find who is a Murderer, using Entity Relationship Diagram and SQL commands.
+There has been a Murder in the city. I must to find who is the Murderer, using Entity Relationship Diagram and SQL commands.
 
 Here is my ERD:
 
@@ -103,14 +103,14 @@ Transcription - I heard a gunshot and then saw a man run out. He had a "Get Fit 
 ### Now i am going to search the name of second witness
 
 ```sql
-SELECT interview.transcript, address_street_name, person.name
+SELECT interview.transcript, get_fit_now_member.name
 FROM interview
-JOIN person
-	ON interview.person_id = person.id
-WHERE person_id = '14887';
+JOIN get_fit_now_member
+    ON interview.person_id = get_fit_now_member.person_id
+WHERE interview.person_id = '14887';
 ```
 
-I have no answer. So, next, i will join interview with person criteria, to search the right name:
+**I have no answer. So, next, i will join interview with person criteria, to search the right name:**
 
 ```sql
 SELECT interview.transcript, person.name
